@@ -16,6 +16,6 @@ Main inspiration for the start of this project was due to a hard drive failure i
 Post-Build Steps:
 1. Download the latest Ubuntu Release (20.04) Image onto a bootable disk using Rufus (https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview)
 2. Go through Initial Ubuntu setup (https://ubuntu.com/tutorials/install-ubuntu-server#1-overview) 
-3. Download OpenSSH (https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-18-04/) (To find your server's public ip: https://linuxconfig.org/check-your-local-and-public-ip-address)
-4. Download Samba File Server (for the 3+ Window PC's we currently have) (Guide: https://ubuntu.com/tutorials/install-and-configure-samba#1-overview) (Due to Windows 10 disabling and actively discouraging the use of SMB1 because of stuff like wannacry ruining our fun, I used christgau's wsdd.py script to get around this. Here's a website that describes more or less what I did: https://devanswers.co/discover-ubuntu-machines-samba-shares-windows-10-network/)
-5. 
+3. Download OpenSSH (https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-18-04/) (To find your server's public ip: https://linuxconfig.org/check-your-local-and-public-ip-address) (Static IP Setup: https://linuxize.com/post/how-to-configure-static-ip-address-on-ubuntu-20-04/) (Configuring your netplan yaml file: https://linuxize.com/post/how-to-set-dns-nameservers-on-ubuntu-18-04/)
+5. Download Samba File Server (for the 3+ Window PC's we currently have) (Guide: https://ubuntu.com/tutorials/install-and-configure-samba#1-overview) (Due to Windows 10 disabling and actively discouraging the use of SMB1 because of stuff like wannacry ruining our fun, I used christgau's wsdd.py script to get around this. Here's a website that describes more or less what I did: https://devanswers.co/discover-ubuntu-machines-samba-shares-windows-10-network/)
+6. 
