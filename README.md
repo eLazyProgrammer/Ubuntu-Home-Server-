@@ -11,11 +11,11 @@ Specs:
 7. SSD (Boot): Samsung EVO 500GB
 
 Introduction:
-Main inspiration for the start of this project was due to a hard drive failure in my very first laptop. At the time, I did not know proper security hygiene and neglected to keep backups, for which I paid dearly. During my search for a reliable portable hard drive to store future backups, I came across the terms automated backups, RAID servers, and home server. From there, I learned I could host minecraft and maplestory, my own website, as well as create a file server accessible from anywhere for extra storage. With this knowledge, I used Tim Gasser's Article (https://medium.com/@timgasser/build-a-16-core-128gb-server-for-less-than-intels-new-10-core-cpu-c6de4d10a686) as a basis for my build. 
+Main inspiration for the start of this project was due to a hard drive failure in my very first laptop. At the time, I did not know proper security hygiene and neglected to keep backups, for which I paid dearly. During my search for a reliable portable hard drive to store future backups, I came across the terms automated backups, RAID servers, and home server. From there, I learned I could host minecraft and maplestory, my own website, as well as create a file server accessible from anywhere for extra storage. With this knowledge, I used Tim Gasser's Article (https://medium.com/@timgasser/build-a-16-core-128gb-server-for-less-than-intels-new-10-core-cpu-c6de4d10a686) as a basis for my build. I'll add resources for whoever also wants to start their server. 
 
 Post-Build Steps:
 1. Download the latest Ubuntu Release (20.04) Image onto a bootable disk using Rufus (https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview)
 2. Go through Initial Ubuntu setup (https://ubuntu.com/tutorials/install-ubuntu-server#1-overview) 
-3. Download OpenSSH (https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-18-04/)
-4. Download Samba File Server (for the 3+ Window PC's we currently have) (Guide: https://ubuntu.com/tutorials/install-and-configure-samba#1-overview) 
+3. Download OpenSSH (https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-18-04/) (To find your server's public ip: https://linuxconfig.org/check-your-local-and-public-ip-address)
+4. Download Samba File Server (for the 3+ Window PC's we currently have) (Guide: https://ubuntu.com/tutorials/install-and-configure-samba#1-overview) (Due to Windows 10 disabling and actively discouraging the use of SMB1 because of stuff like wannacry ruining our fun, I used christgau's wsdd.py script to get around this. Here's a website that describes more or less what I did: https://devanswers.co/discover-ubuntu-machines-samba-shares-windows-10-network/)
 5. 
